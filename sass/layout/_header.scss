@@ -1,0 +1,59 @@
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navegador {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 56px;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .submenu {
+      position: relative;
+
+      ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+      }
+
+      &:hover > ul {
+        display: flex;
+      }
+      a {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        line-height: 1;
+      }
+    }
+  }
+}
+
+.navegador2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+}
+
+.navegador2 a:nth-child(2n) {
+  margin-right: 60px;
+}
