@@ -1,21 +1,24 @@
 .contenedor {
   display: flex;
-  justify-content: space-between;
+  gap: 100px;
   align-items: center;
 }
 
 .navegador {
+  color: $azul_oscuro;
   ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 56px;
+    gap: 16px;
     align-items: center;
+    font-size: 18px;
 
     a {
       text-decoration: none;
       color: inherit;
+      padding: 10px 20px;
     }
 
     .submenu {
@@ -47,13 +50,33 @@
   }
 }
 
+.navegador a:hover {
+  background-color: $azul_oscuro;
+  color: white;
+  border-radius: 32px;
+}
+
 .navegador2 {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 36px;
+
+  a.inicio,
+  a.registro {
+    color: $azul_oscuro;
+    padding: 20px 40px;
+  }
+
+  .ultimos {
+    margin-left: 100px;
+  }
 }
 
-.navegador2 a:nth-child(2n) {
-  margin-right: 60px;
+.navegador2 a.inicio:hover,
+a.registro:hover {
+  background-color: $azul_oscuro;
+  color: white;
+  border-radius: 32px;
+  text-decoration: none;
 }
