@@ -118,7 +118,7 @@ textarea {
   }
 }
 body {
-  background-image: url(../img/modelo.png);
+  background-image: url(/img/modelo.png);
   background-position: top right -40px;
   background-size: 900px;
   background-repeat: no-repeat;
