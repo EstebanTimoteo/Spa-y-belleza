@@ -1,0 +1,52 @@
+[33m86b4b49[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m reemplazo 5
+[33m68189cc[m prueba
+[33m3d8a1f3[m reemplazo 4
+[33m88c6a16[m punto
+[33m5a59162[m reemplazo 3
+[33mddd3cdb[m position modelo
+[33m31b6c9b[m otro cambio 2
+[33m8b6b66f[m otro cambio
+[33mc5cdae4[m nuevo reemplazo
+[33mbc80680[m cambio de posicion de modelo
+[33m83f85d4[m otro reemplazo
+[33m1649f64[m cambio de nombre de iamgen
+[33mf4320d1[m Se hizo de nuevo el bouil y reemplazo de archivos
+[33m0758870[m se agregaron de nuevo los / pero se añadio la carpeta public
+[33m4d9cafe[m quitando el resto de "/"
+[33m8a714d6[m quitando "/"
+[33mdf31ee2[m reemplazo de index y anexo de carpeta assets
+[33m4f5eb66[m agregando archivo vite.config
+[33m1536d37[m se borro carpeta assets
+[33m24c310d[m se quitaron las "/" a las rutas de assets
+[33m6d43a04[m copiando archivos de "dist" a la direccion actual del index y este fue reemplazado por el original
+[33mae1b832[m agregando "./" al link del css
+[33m69fda63[m agregado el link de css al index
+[33ma92fee6[m termino de pagina
+[33md6cea39[m esqueleto
+[33mc0d16aa[m inicio de proyecto
+[33m86b4b49[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m reemplazo 5
+[33m68189cc[m prueba
+[33m3d8a1f3[m reemplazo 4
+[33m88c6a16[m punto
+[33m5a59162[m reemplazo 3
+[33mddd3cdb[m position modelo
+[33m31b6c9b[m otro cambio 2
+[33m8b6b66f[m otro cambio
+[33mc5cdae4[m nuevo reemplazo
+[33mbc80680[m cambio de posicion de modelo
+[33m83f85d4[m otro reemplazo
+[33m1649f64[m cambio de nombre de iamgen
+[33mf4320d1[m Se hizo de nuevo el bouil y reemplazo de archivos
+[33m0758870[m se agregaron de nuevo los / pero se añadio la carpeta public
+[33m4d9cafe[m quitando el resto de "/"
+[33m8a714d6[m quitando "/"
+[33mdf31ee2[m reemplazo de index y anexo de carpeta assets
+[33m4f5eb66[m agregando archivo vite.config
+[33m1536d37[m se borro carpeta assets
+[33m24c310d[m se quitaron las "/" a las rutas de assets
+[33m6d43a04[m copiando archivos de "dist" a la direccion actual del index y este fue reemplazado por el original
+[33mae1b832[m agregando "./" al link del css
+[33m69fda63[m agregado el link de css al index
+[33ma92fee6[m termino de pagina
+[33md6cea39[m esqueleto
+[33mc0d16aa[m inicio de proyecto
