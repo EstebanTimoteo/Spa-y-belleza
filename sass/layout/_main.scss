@@ -1,0 +1,107 @@
+section.hero {
+  .hero_contenido {
+    width: 61%;
+    h1 {
+      font-size: 64px;
+      color: $azul_oscuro;
+      width: 70%;
+      margin-bottom: 32px;
+    }
+    p {
+      font-size: 24px;
+      color: $gris;
+      width: 75%;
+      margin-bottom: 56px;
+    }
+  }
+
+  div.busqueda {
+    display: inline-flex;
+    margin-bottom: 80px;
+
+    button {
+      padding: 16px 46px;
+      background-color: transparent;
+      border: 0px;
+      font-size: 18px;
+      color: $azul_oscuro;
+
+      spam.circulo {
+        padding: 12px;
+        //box-shadow: 2px 2px 2px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        margin-right: 16px;
+        box-shadow: 2px 4px 10px 1px $gris;
+
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+    button.play {
+      display: flex;
+      align-items: center;
+    }
+
+    button:hover {
+      background-color: $azul_oscuro;
+      border-radius: 32px;
+      color: white;
+      padding: 16px 46px;
+    }
+  }
+
+  div.caracteristicas {
+    display: flex;
+    gap: 72px;
+    width: 38%;
+    padding: 32px;
+    background-color: white;
+
+    article {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        font-size: 36px;
+        color: $azul_oscuro;
+      }
+
+      p {
+        color: $gris;
+        font-size: 18px;
+        text-align: center;
+      }
+    }
+  }
+  div.parrafo1,
+  div.parrafo2 {
+    font-size: 18px;
+    width: 20%;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 24px;
+    position: absolute;
+    border-radius: 16px;
+    span {
+      color: $azul_oscuro;
+      font-weight: bold;
+    }
+  }
+  div.parrafo1 {
+    top: 333px;
+    right: 50px;
+  }
+
+  div.parrafo2 {
+    top: 655px;
+    right: 245px;
+    z-index: 2;
+  }
+}
