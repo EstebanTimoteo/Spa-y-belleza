@@ -1,5 +1,13 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/Spa-y-belleza/",
+  base: "./",
+  base: '/Spa-y-belleza/',
 });
+
+
+
+
+
+  
+
